@@ -10,20 +10,62 @@ weight: 4
 Sign up for a free Snowplow trial below, and see what you can do with your event-level data.
 
 <form class="form-horizontal">
-	<div class="controls">
-		<input type="test" id="inputEmail" placeholder="Email">
+	<div class="control-group">
+		<label class="control-label" for="inputName">Name</label>
+		<div class="controls">
+			<input type="text" id="inputName" placeholder="Name">
+		</div>
 	</div>
 	<div class="control-group">
-		<label class="control-group" for="inputPassword">Password</label>
+		<label class="control-label" for="inputEmail">Email</label>
+		<div class="controls">
+			<input type="text" id="inputEmail" placeholder="Email">
+		</div>
 	</div>
-
-	<fieldset>
-		<legend>Legend</legend>
-			<label for="name">Label name</label>
-			<input type="text" id="name" placeholder="Type something...">
-			<span class="help-block">Example block-level help text here.</span>
-			<label class="checkbox" for="checkbox"><input type="checkbox" id="checkbox">Check me out 
-			</label>
-		<button type="submit" class="btn">Submit</button>
-	</fieldset>
+	<div class="control-group">
+		<label class="control-label" for="inputCompany">Company</label>
+		<div class="controls">
+			<input type="text" id="inputCompany" placeholder="Company">
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="inputEventNumber">Number of events per month</label>
+		<div class="controls">
+			<div class="radio">
+				<label>
+					<input type="radio" name="inputEventsPerMonth" id="inputEventsPerMonth1" value="< 1 million" checked>
+					Less than 1 million
+				</label>
+			</div>
+			<div class="radio">
+				<label>
+					<input type="radio" name="inputEventsPerMonth" id="inputEventsPerMonth2" value="1 - 10 million">
+					1-10 million
+				</label>
+			</div>
+			<div class="radio">
+				<label>
+					<input type="radio" name="inputEventsPerMonth" id="inputEventsPerMonth3" value="10 - 100 million">
+					10-100 million
+				</label>
+			</div>
+			<div class="radio">
+				<label>
+					<input type="radio" name="inputEventsPerMonth" id="inputEventsPerMonth4" value="100 million - 1 billion">
+					100 million - 1 billion
+				</label>
+			</div>
+			<div class="radio">
+				<label>
+					<input type="radio" name="inputEventsPerMonth" id="inputEventsPerMonth4" value="100 million - 1 billion">
+					1 billion+
+				</label>
+			</div>
+		</div>
+	</div>
+	<div class="control-group">
+		<div class="controls">
+			<button type="submit" class="btn">Submit</button>
+		</div>
+	</div>
 </form>
