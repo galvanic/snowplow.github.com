@@ -29,7 +29,7 @@ $(function() {
 		if (entryIsValid(name, email, company)) {
 			dataLayer.push({
 				"event": "trialFormSubmitted", 
-				"schema": "iglu://",
+				"schema": "iglu://com.snowplowanalytics.snowplow-website/trial_form_submitted/jsonschema/1-0-0",
 				"data": data 
 			});
 			// Display a thank you message
