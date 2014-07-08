@@ -19,7 +19,7 @@ Sign up for a free Snowplow trial below, and see what you can do with your event
 	<div class="control-group">
 		<label class="control-label" for="inputEmail">Email</label>
 		<div class="controls">
-			<input type="text" id="inputEmail" placeholder="Email">
+			<input type="email" id="inputEmail" placeholder="Email">
 		</div>
 	</div>
 	<div class="control-group">
@@ -65,7 +65,9 @@ Sign up for a free Snowplow trial below, and see what you can do with your event
 	</div>
 	<div class="control-group">
 		<div class="controls">
-			<button type="submit" class="btn">Submit</button>
+			<button type="submit" id="applyForFreeTrialButton" class="btn">Submit</button>
 		</div>
+	</div>
+	<div id="output">
 	</div>
 </form>
