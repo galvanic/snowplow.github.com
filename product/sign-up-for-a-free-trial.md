@@ -57,8 +57,8 @@ Sign up for a free Snowplow trial below, and see what you can do with your event
 			</div>
 			<div class="radio">
 				<label>
-					<input type="radio" name="inputEventsPerMonth" id="inputEventsPerMonth4" value="100 million - 1 billion">
-					1 billion+
+					<input type="radio" name="inputEventsPerMonth" id="inputEventsPerMonth4" value="1 billion +">
+					More than 1 billion
 				</label>
 			</div>
 		</div>
