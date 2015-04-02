@@ -8,6 +8,14 @@ h6{font-size:14px;}
 h1 small{font-size:24px;}
 h2 small{font-size:20px;}
 h3 small{font-size:18px;}
-h4 small{font-size:16px;}
-p {font-size:16px;}
-li {font-size:16px;}
+h4 small{font-size:16px;line-height:26px;}
+p {
+	font-size:16px;
+	line-height:26px;
+	margin-top:12px;
+	margin-bottom:12px;
+}
+li {
+	font-size:16px;
+	line-height:26px;
+}
